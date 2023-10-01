@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.weatherapp_starter_project"
-    android:versionCode="1"
-    android:versionName="1.0.0" >
+    android:versionCode="3"
+    android:versionName="1.0.3" >
 
     <uses-sdk
-        android:minSdkVersion="16"
+        android:minSdkVersion="19"
         android:targetSdkVersion="33" />
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <permission
         android:name="com.example.weatherapp_starter_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -21,7 +22,7 @@
         android:name="android.app.Application"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:icon="@mipmap/ic_launcher"
-        android:label="weatherapp_starter_project" >
+        android:label="Weather 360" >
         <activity
             android:name="com.example.weatherapp_starter_project.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

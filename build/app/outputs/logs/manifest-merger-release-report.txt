@@ -20,17 +20,17 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\HP
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:4:9-51
+		ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:4:9-36
 	android:icon
 		ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:6:9-43
 	android:name
 		INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml
 		ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:5:9-42
 manifest
-ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-36:12
+ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-37:12
+INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-37:12
+INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-37:12
+INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-37:12
 MERGED from [:geolocator_android] E:\Flutter project\weatherapp_starter_project\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-17:12
 MERGED from [:geocoding_android] E:\Flutter project\weatherapp_starter_project\build\geocoding_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\246793f755122fe14a5802655438cb75\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
@@ -54,20 +54,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\HP\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\HP\.gradle\caches\transforms-3\ab7ce279708bbb9e6bfa95c7580f1bb9\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-3\b0ed3bc1190a335fc620be73cef0fa31\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\HP\.gradle\caches\transforms-3\ed9734c73cdec898947618088fbe87b0\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-37:12
+INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-37:12
+INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-37:12
 	package
 		ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:2:5-53
 		INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml
-		ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-36:12
+		ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-37:12
 		INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml
-		ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-36:12
+		ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:1-37:12
 		INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:1:11-69
@@ -79,6 +79,10 @@ uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:35:5-81
 	android:name
 		ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:35:22-78
+uses-permission#android.permission.INTERNET
+ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:36:5-66
+	android:name
+		ADDED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml:36:22-64
 uses-sdk
 INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Flutter project\weatherapp_starter_project\android\app\src\main\AndroidManifest.xml
